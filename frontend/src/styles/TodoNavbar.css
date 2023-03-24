@@ -1,0 +1,27 @@
+.todoNavbarContainer {
+  height: 72px;
+  display: flex;
+}
+
+.todoNavbarContainer .daySection {
+  background-color: #42a5f5;
+  width: 100%;
+  padding: 8px 16px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  text-align: left;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.daySection .category {
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+
+.daySection .currentDate {
+  font-size: 0.7rem;
+  font-weight: 400;
+  margin-top: 4px;
+}

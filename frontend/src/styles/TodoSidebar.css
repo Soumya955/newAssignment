@@ -1,0 +1,78 @@
+.todoSidebar {
+  width: 21%;
+  border-right: 1px solid lightgray;
+  min-height: 500px;
+  height: 100vh;
+}
+
+.todoSidebar .userSection {
+  width: 100%;
+  border-top: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 72px;
+}
+
+.userSection .userIcon {
+  height: 40px;
+  width: 40px;
+  background-color: lightgray;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 1rem;
+}
+
+.userSection .userName {
+  font-size: 1rem;
+  font-weight: 400;
+  margin-left: 1rem;
+}
+
+.userSection .userData {
+  display: flex;
+  align-items: center;
+}
+
+.userSection .searchIcon {
+  margin-right: 1rem;
+}
+
+.todoSidebar .menuList {
+  margin-top: 0.5rem;
+  overflow-y: scroll;
+  max-height: 80vh;
+}
+
+.todoSidebar .menuItem {
+  display: flex;
+  height: 40px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem 1rem;
+}
+
+.todoSidebar .menuItem:hover {
+  background-color: lightgrey;
+}
+
+.todoSidebar .selectedItem {
+  background-color: lightgrey;
+}
+
+.menuItem .nameIcon {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  width: 200px;
+  font-size: 1rem;
+}
+
+.menuItem .categoryItems {
+  font-size: 1rem;
+  display: flex;
+  gap: 1rem;
+}

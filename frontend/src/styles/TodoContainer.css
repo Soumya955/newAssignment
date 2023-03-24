@@ -1,0 +1,10 @@
+.todoContainer {
+  width: 79%;
+  background-color: #fafafa;
+}
+
+.todoContainer .todoList {
+  padding: 24px;
+  height: calc(100vh - 72px);
+  overflow-y: scroll;
+}
